@@ -11,10 +11,7 @@ const port = process.env.PORT;
 
 // Error handler
 
-app.use(
-  badRequestHanlder,
- 
-);
+
 
 app.listen(port, () => {
   console.table(listEndpoints(app));
